@@ -68,10 +68,19 @@ function draw() {
   
   if(keyDown("space")&&trex.y>152.5) {
     if(score<200){
-    trex.velocityY = -12.5;
+    trex.velocityY = -13;
        }
     if(score>201){
     trex.velocityY = -10;
+       }
+    if(score>301){
+    trex.velocityY = -8.5;
+       }
+    if(score>401){
+    trex.velocityY = -6.5;
+       }
+    if(score>501){
+    trex.velocityY = -5.5;
        }
   }
   
